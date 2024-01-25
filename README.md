@@ -15,8 +15,8 @@ The file 'Koopman Transfer Learning via Pertubation' introduces a closed form so
 Dynamical system state prediction algorithm:
 
 Given the following data:
-a) a trajectory of observed dynamic system states x
-b) observable maps g from states to real numbers
+a) a trajectory of observed dynamic system states x,
+b) observable maps g from states to real numbers, and
 c) measurements g(x), for each map and trajectory state
 
 1) Determine a vector-valued Koopman operator K
