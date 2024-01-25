@@ -5,3 +5,21 @@ In mathematics there is an aesthetic, a notion of beauty, often referred to as e
 
 Recall Lewin’s maxim: 
 There is nothing as practical as a good theory!
+
+
+
+The file 'Koopman Transfer Learning via Pertubation' introduces a closed form solution for predicting future states of nonlinear dynamical systems. In constrast to spectral theory and neural network approaches to learning Koopman embeddings, a reproducing kernel Hilbert space Representer Theorem is used to construct both a Koopman operator and a Koopman embedding. The embedding has an invertible perturbation enabling future state prediction. Applications of data-driven Koopman analyses include fluid dynamics, plasma physics, protein folding, epidemiology, neuroscience, video processing, and robotics. The following algorithm given in these notes awaits implementation.
+
+
+
+Dynamical system state prediction algorithm:
+
+Given the following data:
+a) a trajectory of observed dynamic system states x
+b) observable maps g from states to real numbers
+c) measurements g(x), for each map and trajectory state
+
+1) Determine a vector-valued Koopman operator K
+2) Determine a Koopman embedding φ
+3) Determine invertible perturbation φ^ (let ψ^ = φ^-inverse)
+4) Predict future states x^ = ψ^(Kφ(x))
