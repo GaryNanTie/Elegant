@@ -23,3 +23,5 @@ c) measurements g(x), for each map and trajectory state
 2) Determine a Koopman embedding φ
 3) Determine invertible perturbation φ^ (let ψ^ = φ^-inverse)
 4) Predict future states x^ = ψ^(Kφ(x))
+
+The 'FreD' file introduces deep learning in the 2-dimensional frequency domain via tensors akin to word embedding,to forecast nonlinear multivariate time series.
