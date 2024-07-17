@@ -25,3 +25,5 @@ c) measurements g(x), for each map and trajectory state
 4) Predict future states x^ = ψ^(Kφ(x))
 
 The 'FreD' file introduces deep learning in the 2-dimensional frequency domain via tensors akin to word embedding, to forecast nonlinear multivariate time series.
+
+The 'HPNN' file introduces homotopy perturbation neural networks to parsimoniously solve general non-linear regression problems.
