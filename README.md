@@ -27,4 +27,5 @@ c) measurements g(x), for each map and trajectory state
 
 The 'FreD' file introduces deep learning in the 2-dimensional frequency domain via tensors akin to word embedding, to forecast nonlinear multivariate time series.
 
-The 'HPNN' file introduces homotopy perturbation neural networks to parsimoniously solve general non-linear regression problems.
+The 'HPNN' file introduces homotopy perturbation neural networks to parsimoniously solve general non-linear regression problems. Inspired by He’s homotopy perturbation method, we introduce a new deep learning technique to solve regression problems.  Essentially, a homotopy is constructed that deforms a linear problem to our desired non-linear regression 
+problem.
