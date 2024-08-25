@@ -29,3 +29,5 @@ The 'FreD' file introduces deep learning in the 2-dimensional frequency domain v
 
 The 'HPNN' file introduces homotopy perturbation neural networks to parsimoniously solve general non-linear regression problems. Inspired by He’s homotopy perturbation method, we introduce a new deep learning technique to solve regression problems.  Essentially, a homotopy is constructed that deforms a linear problem to our desired non-linear regression 
 problem.
+
+The 'Sparse KAN' file sparsifies Kolmogorov-Arnold Network function matrix layers by introducing two sparse DCD matrix forms, enabling sub-quadratic computation.
