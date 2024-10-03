@@ -31,3 +31,5 @@ The 'HPNN' file introduces homotopy perturbation neural networks to parsimonious
 problem.
 
 The 'Sparse KAN' file sparsifies Kolmogorov-Arnold Network function matrix layers by introducing two sparse DCD matrix forms, enabling sub-quadratic computation.
+
+The 'Rec-KAN' file reframes the notion of sparse M-TriAd KANs as recursive KAN of KANs.
