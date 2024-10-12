@@ -32,4 +32,4 @@ problem.
 
 The 'Sparse KAN' file sparsifies Kolmogorov-Arnold Network function matrix layers by introducing two sparse DCD matrix forms, enabling sub-quadratic computation.
 
-The 'Rec-KAN' file reframes the notion of sparse M-TriAd KANs as recursive KAN of KANs.
+The 'Rec-KAN' file reframes the notion of sparse M-TriAd KANs as recursive KAN of KANs and introduces random sparse KAN, a form of neural architecture search.
