@@ -33,3 +33,7 @@ problem.
 The 'Sparse KAN' file sparsifies Kolmogorov-Arnold Network function matrix layers by introducing two sparse DCD matrix forms, enabling sub-quadratic computation.
 
 The 'Rec-KAN' file reframes the notion of sparse M-TriAd KANs as recursive KAN of KANs and introduces random sparse KAN, a form of neural architecture search.
+
+The 'Super-KAN' file introduces a sparse Kolmogorov-Arnold network with superposition layers; 
+each direct summand a version of the Kolmogorov-Arnold representation theorem.
+Super-KAN are interpretable, enjoy compositional sparsity, and have linear runtime.
