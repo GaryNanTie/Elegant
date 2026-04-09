@@ -37,3 +37,14 @@ The 'Rec-KAN' file reframes the notion of sparse M-TriAd KANs as recursive KAN o
 The 'Super-KAN' file introduces a sparse Kolmogorov-Arnold network with superposition layers; 
 each direct summand a version of the Kolmogorov-Arnold representation theorem.
 Super-KAN are interpretable, enjoy compositional sparsity, and have linear runtime.
+
+'Noken Chunking' DOI:10.13140/RG.2.2.11994.09922
+A large corpus is first partitioned into computationally 
+manageable chunks, then Noken implicit models are used 
+to jointly learn query-key-value embeddings on each chunk.
+To compare a pair of embeddings, we use their ability to 
+capture semantics on each other’s training chunk, as 
+measured by average Renyi α-entropy.  After a bubble sort, 
+the resulting chunk Q-K-V token embedding is used across 
+the entire corpus for the purposes of transformer attention.
+
