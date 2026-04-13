@@ -48,3 +48,4 @@ measured by average Renyi α-entropy.  After a bubble sort,
 the resulting chunk Q-K-V token embedding is used across 
 the entire corpus for the purposes of transformer attention.
 
+'Ranking Chunk Embeddings' - a supplement to 'Noken Chunking'
